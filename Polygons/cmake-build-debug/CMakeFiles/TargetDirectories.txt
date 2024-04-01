@@ -1,0 +1,9 @@
+/Users/mand/Desktop/Polygons/cmake-build-debug/CMakeFiles/Polygons.dir
+/Users/mand/Desktop/Polygons/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/mand/Desktop/Polygons/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/mand/Desktop/Polygons/cmake-build-debug/CMakeFiles/list_install_components.dir
+/Users/mand/Desktop/Polygons/cmake-build-debug/CMakeFiles/install.dir
+/Users/mand/Desktop/Polygons/cmake-build-debug/CMakeFiles/install/local.dir
+/Users/mand/Desktop/Polygons/cmake-build-debug/CMakeFiles/install/strip.dir
+/Users/mand/Desktop/Polygons/cmake-build-debug/CMakeFiles/Polygons_autogen_timestamp_deps.dir
+/Users/mand/Desktop/Polygons/cmake-build-debug/CMakeFiles/Polygons_autogen.dir

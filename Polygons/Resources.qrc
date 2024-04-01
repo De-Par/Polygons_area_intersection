@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/ico/caution.ico</file>
+        <file>res/ico/exit.ico</file>
+        <file>res/ico/logo.ico</file>
+    </qresource>
+</RCC>
