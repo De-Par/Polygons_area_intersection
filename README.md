@@ -1,7 +1,10 @@
 # [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&random=false&width=650&lines=Polygons+area+intersection)](https://git.io/typing-svg)
 Для определения точек получившегося полигона при наложении других задействовался алгоритм Сазерленда-Ходжмана.
+
 # Суть алгоритма:
+
 Для простоты рассмотрим на 2 фигурах:
+
 ![image](https://github.com/Akds-ubuntu/Laboratory-work-in-CPP/assets/125271579/e68139dc-c492-488c-abb0-4020423854cd)
 
 Изначально точки должны быть расположены по часовой стрелке у всех фигур. Теперь выбираем первые две вершины у красной фигуры и у синей
