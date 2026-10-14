@@ -1,0 +1,10 @@
+{
+    "format": "polygons",
+    "version": 1,
+    "polygons": [
+        { "name": "Triangle 1", "points": [[16, 0], [0, 0], [8, 16]] },
+        { "name": "Triangle 2", "points": [[16, 16], [8, 0], [0, 16]] },
+        { "name": "Triangle 3", "points": [[0, 0], [0, 16], [16, 8]] },
+        { "name": "Triangle 4", "points": [[16, 16], [16, 0], [0, 8]] }
+    ]
+}

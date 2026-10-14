@@ -1,0 +1,60 @@
+{
+    "version": 3,
+    "cmakeMinimumRequired": {
+        "major": 3,
+        "minor": 21,
+        "patch": 0
+    },
+    "configurePresets": [
+        {
+            "name": "debug",
+            "displayName": "Desktop · Debug",
+            "generator": "Ninja",
+            "binaryDir": "${sourceDir}/build/debug",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Debug",
+                "BUILD_TESTING": "ON",
+                "POLYGONS_BUILD_GUI": "ON"
+            }
+        },
+        {
+            "name": "release",
+            "displayName": "Desktop · Release",
+            "inherits": "debug",
+            "binaryDir": "${sourceDir}/build/release",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Release",
+                "BUILD_TESTING": "OFF"
+            }
+        },
+        {
+            "name": "core",
+            "displayName": "Core library and tests",
+            "inherits": "debug",
+            "binaryDir": "${sourceDir}/build/core",
+            "cacheVariables": {
+                "POLYGONS_BUILD_GUI": "OFF"
+            }
+        },
+        {
+            "name": "sanitizers",
+            "displayName": "Core · ASan and UBSan",
+            "inherits": "core",
+            "binaryDir": "${sourceDir}/build/sanitizers",
+            "cacheVariables": {
+                "POLYGONS_ENABLE_SANITIZERS": "ON"
+            }
+        }
+    ],
+    "buildPresets": [
+        { "name": "debug", "configurePreset": "debug" },
+        { "name": "release", "configurePreset": "release" },
+        { "name": "core", "configurePreset": "core" },
+        { "name": "sanitizers", "configurePreset": "sanitizers" }
+    ],
+    "testPresets": [
+        { "name": "debug", "configurePreset": "debug", "output": { "outputOnFailure": true } },
+        { "name": "core", "configurePreset": "core", "output": { "outputOnFailure": true } },
+        { "name": "sanitizers", "configurePreset": "sanitizers", "output": { "outputOnFailure": true } }
+    ]
+}

@@ -1,0 +1,19 @@
+# Artifacts files
+/build/
+**/build-*/
+**/cmake-build-*/
+CMakeUserPresets.json
+CMakeCache.txt
+CMakeFiles/
+Testing/
+compile_commands.json
+*_autogen/
+*.qm
+
+# Local editor and OS metadata
+.idea/
+.vscode/
+*.user
+*.user.*
+.DS_Store
+Thumbs.db
